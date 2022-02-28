@@ -1,3 +1,4 @@
+git+https://github.com/amarasovic/mice.git
 notebook
 datasets
 ipywidgets
@@ -5,3 +6,4 @@ torch
 transformers
 allennlp==1.2.2
 allennlp_models==1.2.2
+pandas

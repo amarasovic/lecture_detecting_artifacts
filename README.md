@@ -29,8 +29,9 @@ conda activate lecture_env
 pip install -r requirements.txt
 ```
 
-6. Also run
+6. Also run:
 
 ```
-jupyter nbextension enable --py widgetsnbextension
+mkdir mice/trained_predictors
+bash mice/download_models.sh
 ```
