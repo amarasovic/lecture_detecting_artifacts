@@ -32,6 +32,11 @@ pip install -r requirements.txt
 6. Also run:
 
 ```
+mkdir mice_edits
+cd mice_edits
+wget https://storage.cloud.google.com/mice-edits/mice_edits.csv
+
+cd ..
 mkdir mice/trained_predictors
 bash mice/download_models.sh
 ```
